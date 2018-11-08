@@ -52,11 +52,19 @@ go build
 ```
 ./bookingSystem orm syncdb
 ```
+5. 添加一个后台管理员
 
-5. 运行
+```
+INSERT INTO `b_user` (`user_name`, `nick_name`, `password`, `salt`, `update_time`) VALUES (`admin`, `admin`, `1add8b1f9a1c52676c1e9281315c366c`, `ac71w`, `2018-11-08 20:39:29.842651 +0800 CST`);
+```
+然后用admin 123456即可登陆后台
+
+6. 运行
 ```
 ./bookingSystem &
 ```
+## 后台地址 /auth/login
+
 ## 特别感谢
 
 - beego
