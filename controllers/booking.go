@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"bookingSystem/models"
+	"github.com/ajeecai/bookingSystem/models"
 	"github.com/astaxie/beego/orm"
 	"github.com/astaxie/beego/validation"
 	"time"

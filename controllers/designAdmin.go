@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"bookingSystem/models"
+	"github.com/ajeecai/bookingSystem/models"
 	"crypto/md5"
 	"fmt"
 	"github.com/astaxie/beego/orm"

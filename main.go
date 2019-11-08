@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "bookingSystem/routers"
+	_ "github.com/ajeecai/bookingSystem/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/go-sql-driver/mysql"

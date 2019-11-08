@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"bookingSystem/controllers"
+	"github.com/ajeecai/bookingSystem/controllers"
 	"github.com/astaxie/beego"
 )
 
